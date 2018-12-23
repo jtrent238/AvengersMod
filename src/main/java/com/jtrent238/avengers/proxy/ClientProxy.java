@@ -15,9 +15,4 @@ public class ClientProxy extends CommonProxy {
         super.preInit(e);
     }
 
-    @SubscribeEvent
-    public static void registerModels(ModelRegistryEvent event) {
-    	//ModBlocks.initModels();
-        ModItems.initModels();
-    }
 }

@@ -11,6 +11,7 @@ import com.jtrent238.avengers.network.PacketHandler;
 import net.minecraft.block.Block;
 import net.minecraft.client.Minecraft;
 import net.minecraft.item.Item;
+import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.common.config.Configuration;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -45,14 +46,4 @@ public class CommonProxy {
         }
     }
 
-    @SubscribeEvent
-    public static void registerBlocks(RegistryEvent.Register<Block> event) {
-    }
-
-    @SubscribeEvent
-    public static void registerItems(RegistryEvent.Register<Item> event) {
-    	Item ItemStormBreaker = new ItemStormBreaker();
-		//event.getRegistry().register(new ItemStormBreaker());
-    	event.getRegistry().register(ItemStormBreaker);
-    }
 }
