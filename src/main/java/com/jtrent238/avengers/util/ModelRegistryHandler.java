@@ -17,6 +17,8 @@ public class ModelRegistryHandler {
     @SubscribeEvent
     public static void registerModels(ModelRegistryEvent event) {
         registerModel(ModItems.ItemStormBreaker);
+        registerModel(ModItems.ItemCaptainAmericaShield);
+        registerModel(ModItems.ItemGamoraSword);
     }
  
     private static void registerModel(Item item) {

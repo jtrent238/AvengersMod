@@ -16,5 +16,7 @@ import net.minecraftforge.fml.relauncher.SideOnly;
 public class ModItems {
 
 	public static final Item ItemStormBreaker = null;
+	public static final Item ItemCaptainAmericaShield = null;
+	public static final Item ItemGamoraSword = null;
 
 }
