@@ -1,6 +1,7 @@
 package com.jtrent238.avengers.util;
 
 import com.jtrent238.avengers.Config;
+import com.jtrent238.avengers.ModBlocks;
 import com.jtrent238.avengers.ModItems;
 
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
@@ -20,6 +21,10 @@ public class ModelRegistryHandler {
         registerModel(ModItems.ItemCaptainAmericaShield);
         registerModel(ModItems.ItemGamoraSword);
         registerModel(ModItems.ItemDraxKnive);
+        registerModel(ModItems.ItemWebShooter);
+        
+        registerModel(Item.getItemFromBlock(ModBlocks.BlockModWeb));
+
     }
  
     private static void registerModel(Item item) {
@@ -30,4 +35,5 @@ public class ModelRegistryHandler {
     	}
     }
  
+    
 }
