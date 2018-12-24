@@ -19,6 +19,7 @@ public class ModelRegistryHandler {
         registerModel(ModItems.ItemStormBreaker);
         registerModel(ModItems.ItemCaptainAmericaShield);
         registerModel(ModItems.ItemGamoraSword);
+        registerModel(ModItems.ItemDraxKnive);
     }
  
     private static void registerModel(Item item) {

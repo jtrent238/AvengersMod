@@ -18,5 +18,6 @@ public class ModItems {
 	public static final Item ItemStormBreaker = null;
 	public static final Item ItemCaptainAmericaShield = null;
 	public static final Item ItemGamoraSword = null;
+	public static final Item ItemDraxKnive = null;
 
 }
